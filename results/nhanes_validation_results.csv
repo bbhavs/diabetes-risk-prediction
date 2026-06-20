@@ -1,0 +1,2 @@
+n_total,n_diabetic,n_nondiabetic,AUC,Sensitivity_t050,Specificity_t050,TP,FP,FN,TN,Note
+2476,514,1962,0.69,0.498,,256,512,258,1450,"Values taken from manuscript text (Section 3.6/4.6) and confusion matrix Table 6. AUC_CI, Precision_t050, F1_t050, and Brier_Score were not stated in any source file provided - rerun nhanes_revalidation.py to regenerate the complete row."

@@ -1,0 +1,4 @@
+Comparison,IDI,IDI p-value,Continuous NRI,NRI p-value,Note
+XGBoost vs IDRS alone,+0.1372,0.000,+0.6580,0.000,Point estimates and p-values read from nri_idi_slopes.png; 95% CIs not labeled on chart - rerun nri_idi_analysis.py for exact CI bounds
+XGBoost vs Logistic Regression,+0.0423,0.000,+0.3710,0.000,Point estimates and p-values read from nri_idi_slopes.png; 95% CIs not labeled on chart - rerun nri_idi_analysis.py for exact CI bounds
+Stacking vs XGBoost,-0.0941,0.000,-0.0016,0.190,Point estimates and p-values read from nri_idi_slopes.png; 95% CIs not labeled on chart - rerun nri_idi_analysis.py for exact CI bounds

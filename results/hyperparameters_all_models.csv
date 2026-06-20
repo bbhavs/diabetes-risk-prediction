@@ -1,0 +1,7 @@
+Model,Best Parameters,Best CV ROC-AUC
+Logistic Regression,"{'logreg__C': 10}",0.7411
+Random Forest,"{'rf__max_depth': 10, 'rf__min_samples_leaf': 2, 'rf__min_samples_split': 5, 'rf__n_estimators': 200}",0.7563
+SVM (RBF),"C=5, gamma=scale, kernel=rbf, SelectKBest k=12 (fixed - no grid search)",N/A
+XGBoost,"{'xgb__colsample_bytree': 0.8, 'xgb__learning_rate': 0.05, 'xgb__max_depth': 3, 'xgb__n_estimators': 300, 'xgb__subsample': 0.8}",0.7657
+LightGBM,"{'lgb__colsample_bytree': 0.8, 'lgb__learning_rate': 0.05, 'lgb__max_depth': 5, 'lgb__n_estimators': 200, 'lgb__num_leaves': 50, 'lgb__subsample': 0.8}",0.7628
+Stacking Ensemble,"XGBoost + RandomForest + LogisticRegression; meta=LogisticRegression; threshold=0.170 (PR-curve optimised at recall=0.70)",N/A (threshold-optimised)

@@ -1,0 +1,9 @@
+Metric,StratifiedKFold (original),GroupKFold on PSU (clustered),Delta (GroupKFold - StratifiedKFold)
+Mean ROC-AUC,0.7675,0.7664,-0.0011
+Std Dev,0.0042,0.0046,
+Number of PSUs,,2398,
+Mean observations per PSU,,26,
+
+NOTE: Exact per-fold AUC values (Fold 1-5) are not numerically labeled on groupkfold_sensitivity.png -
+only visually plotted. Rerun survey_weights_groupkfold.py to regenerate the precise
+fold-by-fold CSV (groupkfold_fold_results.csv) with exact values.
